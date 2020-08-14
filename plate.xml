@@ -30,6 +30,71 @@
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>
         <ingredients>
+<dataset name="accessibility_colors" name_friendly="Accessibility Colors">
+              <fields>
+                <color name="site_wide" name_friendly="1. Site Wide" />
+                <color name="subpage_headers_h1" name_friendly="2. Subpage Headers" />
+                <color name="h3_headers" name_friendly="3. Employee Cats and Homepage Square Titles" />
+                <color name="links" name_friendly="4. Links" />
+                <color name="link_hover_color" name_friendly="5. Link Hover Color" />
+                <color name="all_icons" name_friendly="6. All Icons" />
+                <color name="phone_number_and_icon" name_friendly="7. Phone Number and Tel Icon" />
+                <color name="all_buttons" name_friendly="8. All Buttons (except for Slider)" />
+                <color name="all_buttons_hover" name_friendly="9. All Buttons Hover (except for Slider)" />
+                <color name="site_name" name_friendly="10. Site Name" />
+                <color name="site_name_hover" name_friendly="11. Site Name Hover" />
+                <color name="all_nav_items" name_friendly="12. All Nav Items" />
+                <color name="all_nav_items_hover" name_friendly="13. All Nav Items Hover" />
+                <color name="nav_active_item_bg_color" name_friendly="14. Nav Active Item Background Color" />
+                <color name="nav_dropdown_bg_color_non_active_items" name_friendly="15. Nav Dropdown Background Color for Non-active Items" />
+                <color name="slider_text" name_friendly="16. Slider Text" />
+                <color name="slider_button" name_friendly="17. Slider Button" />
+                <color name="slider_button_hover" name_friendly="18. Slider Button Hover" />
+                <color name="homepage_squares_title" name_friendly="19. Homepage Squares Title" />
+                <color name="all_timeline_titles" name_friendly="20. Timeline Title, Bubble Titles and Bubble Subtitles" />
+                <color name="timeline_body_text_header_subtitle" name_friendly="21. Timeline Body Text and Main Subtitle" />
+                <color name="timeline_button" name_friendly="22. Timeline Button" />
+                <color name="timeline_button_hover" name_friendly="23. Timeline Button Hover" />
+                <color name="homepage_about_section" name_friendly="24. Homepage About Section" />
+                <color name="footer_text" name_friendly="25. Footer Text" />
+                <color name="sectionlinks" name_friendly="26. Sectionlinks" />
+                <color name="testimonial_headline_and_location" name_friendly="27. Testimonial Header and Location" />
+                <color name="testimonial_name_and_body_text" name_friendly="28. Testimonial Customer Name and Body Text" />
+              </fields>
+              <items>
+                  <item link_title="" path_part="">
+                    <site_wide><![CDATA[]]></site_wide>
+                    <subpage_headers_h1><![CDATA[]]></subpage_headers_h1>
+                    <h3_headers><![CDATA[]]></h3_headers>
+                    <links><![CDATA[]]></links>
+                    <link_hover_color><![CDATA[]]></link_hover_color>
+                    <all_icons><![CDATA[]]></all_icons>
+                    <phone_number_and_icon><![CDATA[]]></phone_number_and_icon>
+                    <all_buttons><![CDATA[]]></all_buttons>
+                    <all_buttons_hover><![CDATA[]]></all_buttons_hover>
+                    <site_name><![CDATA[]]></site_name>
+                    <site_name_hover><![CDATA[]]></site_name_hover>
+                    <all_nav_items><![CDATA[]]></all_nav_items>
+                    <all_nav_items_hover><![CDATA[]]></all_nav_items_hover>
+                    <nav_active_item_bg_color><![CDATA[]]></nav_active_item_bg_color>
+                    <nav_dropdown_bg_color_non_active_items><![CDATA[]]></nav_dropdown_bg_color_non_active_items>
+                    <slider_text><![CDATA[]]></slider_text>
+                    <slider_button><![CDATA[]]></slider_button>
+                    <slider_button_hover><![CDATA[]]></slider_button_hover>
+                    <homepage_squares_title><![CDATA[]]></homepage_squares_title>
+                    <all_timeline_titles><![CDATA[]]></all_timeline_titles>
+                    <timeline_body_text_header_subtitle><![CDATA[]]></timeline_body_text_header_subtitle>
+                    <timeline_button><![CDATA[]]></timeline_button>
+                    <timeline_button_hover><![CDATA[]]></timeline_button_hover>
+                    <homepage_about_section><![CDATA[]]></homepage_about_section>
+                    <footer_text><![CDATA[]]></footer_text>
+                    <sectionlinks><![CDATA[]]></sectionlinks>
+                    <testimonial_headline_and_location><![CDATA[]]></testimonial_headline_and_location>
+                    <testimonial_name_and_body_text><![CDATA[]]></testimonial_name_and_body_text>
+
+                  </item>
+              </items>
+          </dataset>
 
           <dataset name="social_links" name_friendly="Social Links">
               <fields>
