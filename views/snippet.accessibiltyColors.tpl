@@ -99,7 +99,7 @@
 /* -------------------------------- */
 /*  13. ALL NAV ITEMS HOVER STATE   */
 /* -------------------------------- */
-	.navbar-custom .nav li a:hover span { color: {{if {accessibility_colors.first().all_nav_items_hover} }}{{accessibility_colors.first().all_nav_items_hover}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+	.navbar-custom .nav li a:hover span { color: {{if {accessibility_colors.first().all_nav_items_hover} }}{{accessibility_colors.first().all_nav_items_hover}};{{end-if}} }
 
 /* navbar active items */
 /* -------------------------------- */
