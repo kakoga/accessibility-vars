@@ -26,7 +26,7 @@
 						<!-- /.navbar-collapse -->
 					</div>
 					<div class="col-sm-4" >
-						<a class="btn btn-primary pull-right" style="font-size: {{ clippings.request_btn_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
+						<a class="btn btn-primary pull-right" style="font-size: {{ clippings.request_btn_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" onClick= "ga('set', 'dimension3', 'THEME_CAT'); ga('set', 'page', '/ZESTY/CUSTOMER_WEBSITE_BUTTONCLICK'); ga('send', 'pageview'); ga('send', 'event', 'ZESTY', 'CUSTOMER_WEBSITE_BUTTONCLICK');" >Request Appointment</a>
 					</div>
 				</div>
 			</div>

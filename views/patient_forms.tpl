@@ -16,11 +16,12 @@
 						</div>
 						{{ end-if }}
 						<div class="body-text" >
-							<p>{{ page.body_text }}</p>
+							{{ page.body_text }}
 						</div>
-						<p class="form-rows">{{ page.download_form_note}}</p>
-
-						<br/>
+						<div>
+							<span class="form-rows">{{ page.download_form_note}}</apan>
+						</div>
+						
 						{{ if {page.zuid} == {patient_forms.first().zuid} }}
 						{{ each online_forms as of sort by of.sort_order }}
 						<blockquote>

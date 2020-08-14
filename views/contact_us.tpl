@@ -17,14 +17,14 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6" >
-						<p>{{ page.address_one }}</p>
-						<p>{{ page.address_two }}</p>
-						<p>{{ page.address_three }}</p>
-						<p>{{ page.general_info_one }}</p>
-						<p>{{ page.phone_number_one }}</p>
-						<p>{{ page.general_info_two }}</p>
-						<p>{{ page.phone_number_two }}</p>
-						<p>{{ page.general_info_three }}</p>
+						{{ page.address_one }}
+						{{ page.address_two }}
+						{{ page.address_three }}
+						{{ page.general_info_one }}
+						{{ page.phone_number_one }}
+						{{ page.general_info_two }}
+						{{ page.phone_number_two }}
+						{{ page.general_info_three }}
 					</div>
 					<div class="col-md-6">
 						<h4>{{ page.hours_title }}</h4>
