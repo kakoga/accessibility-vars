@@ -1,10 +1,8 @@
-{{ include accessibiltyColors }}
-
 <div id="page-top" class="index">
 	{{include header}}
-	(**{{ if {page.path_part} != 'zesty_home' }}**)
+	{{ if {page.path_part} != 'zesty_home' }}
 	<div class="header-spacing" ></div>
-	(**{{ end-if }}**)
+	{{ end-if }}
 	{{current_view}}
 
 	{{include footer}}
@@ -17,12 +15,13 @@
     <!-- Modal content-->
     <div class="modal-content">
 		{{ clippings.pop_up_content }}
-			<span class="clear-fix"></span>
-			<hr/>
-			<div class="text-center">
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-			</div>
+		<span class="clear-fix" ></span>
+		<hr/>
+		<div class="text-center" >
+		<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		</div>
     </div>
+
   </div>
 </div>
 {{ if {clippings.pop_up_content} != '' }}
@@ -79,7 +78,6 @@
 </script>
 
 {{ end-if }}
-
 <script>
-	$('.header-spacing').css('margin-bottom', $('#nav-wrap').outerHeight() );
+	$('.header-spacing').css('margin-bottom', $('#mainNav').outerHeight() );
 </script>

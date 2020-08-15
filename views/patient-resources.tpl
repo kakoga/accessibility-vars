@@ -1,27 +1,22 @@
-<div id="patient-resources">
-	<div class="body-container">
-		<div class="container">
-			<div class="body-content" >
-				<h1>{{ page.page_title }}</h1>
-				<div class="row">
+<div id="resources">
+	{{ include inner-page-hero }}
+	<div class="container">
+		<div class="body-content" >
+			<div class="row">
+				<div class="col-lg-3 col-md-4 mobile" >
 					<div class="mobile">
-						<div class="col-md-4" >
-							{{ include sectionlinks }}
-						</div>
+						{{ include sectionlinks }}
 					</div>
-					<div class="col-md-8" >
-						{{ if {page.main_image} }}
-						<div class="title-border">
-							<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" alt="{{ this.main_image_alt_text }}"/>
-						</div>
-						{{ end-if }}
-						{{ page.body_text }}
-					</div>
+				</div>
+				<div class="col-lg-9 col-md-8" >
+					<h1>{{ page.page_title }}</h1>
+					<hr>
+					{{ page.body_text }}
+				</div>
+				<div class="col-lg-3 col-md-4" >
 					<div class="desktop">
-						<div class="col-md-4" >
-							{{ include sectionlinks }}
-							{{ include inner-page-sidebar }}
-						</div>
+						{{ include sectionlinks }}
+						{{ include inner-page-sidebar }}
 					</div>
 				</div>
 			</div>

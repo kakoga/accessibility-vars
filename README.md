@@ -1,2 +1,2 @@
-# PetDesk Cat Blueprint
-![Plate cover](https://raw.githubusercontent.com/PetDesk/cat-template/master/shield.png)
+# PetDesk Dog Blueprint
+![Plate cover](https://raw.githubusercontent.com/PetDesk/dog-template/master/shield.png)
