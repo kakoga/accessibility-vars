@@ -1,3 +1,5 @@
+{{ include accessibilityColors }}
+
 <div id="page-top" class="index">
 	{{include header}}
 	{{ if {page.path_part} != 'zesty_home' }}
