@@ -191,7 +191,7 @@
 	/* ------------------------------------------------ */
 
 	/* Timeline button */
-		.timeline>li .timeline-image h4 a{ color: {{if {accessibility_colors.firsttimeline_button().} }}{{accessibility_colors.first().timeline_button}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		.timeline>li .timeline-image h4 a{ color: {{if {accessibility_colors.first().timeline_button} }}{{accessibility_colors.first().timeline_button}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 		/* ------------------------------------------------ */
 	/*     25. TIMELINE BUTTON HOVER    */
