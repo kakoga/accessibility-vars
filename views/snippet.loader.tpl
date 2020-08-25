@@ -1,4 +1,4 @@
-{{ include accessibilityColors }}
+{{ include AccessibilityColors }}
 
 <div id="page-top" class="index">
 	{{include header}}
