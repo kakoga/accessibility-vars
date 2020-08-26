@@ -46,7 +46,7 @@
                           <color name="social_icon_hover" name_friendly="11. Social Icon Hover" />
                           <color name="phone_number" name_friendly="12. Header Phone Number" />
                           <color name="all_buttons" name_friendly="13. All Buttons (except for Squares)" />
-                          <color name="all_buttons_hover" name_friendly="14. All Buttons Hover (except for Squares)" />
+                          <color name="all_buttons_hover" name_friendly="14. All Buttons Hover (except for Squares and Timeline)" />
                           <color name="site_name" name_friendly="15. Site Name" />
                           <color name="site_name_hover" name_friendly="16. Site Name Hover" />
                           <color name="all_nav_items" name_friendly="17. All Nav Items" />
