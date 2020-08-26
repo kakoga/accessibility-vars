@@ -82,6 +82,7 @@
 	/* -------------------------------- */
 		/* Header: phone number link  - Dog does not have a telephone icon */
 		#mainNav .number h3 a  { color: {{if {accessibility_colors.first().phone_number} }}{{accessibility_colors.first().phone_number}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		#mainNav .number h6 { color: {{if {accessibility_colors.first().phone_number} }}{{accessibility_colors.first().phone_number}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 	/* ---------------------------------------------------------------- */
 	/*     13. ALL BUTTONS including slider button and timeline button and excluding squares     */
