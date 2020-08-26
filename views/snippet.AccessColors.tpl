@@ -140,21 +140,21 @@
 	/*  18. ALL NAV ITEMS HOVER STATE BACKGROUND COLOR   */
 	/* ------------------------------------------------- */
 	/* background color of hover on dropdown items */
-		.dropdown-menu>li>a:hover { background-color: {{if {accessibility_colors.first().all_nav_items_hover} }}{{accessibility_colors.first().all_nav_items_hover}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		.dropdown-menu>li>a:hover { background-color: {{if {accessibility_colors.first().all_nav_items_hover} }}{{accessibility_colors.first().all_nav_items_hover}};{{end-if}} }
 
 
 	/* navbar active items */
 	/* -------------------------------- */
 	/*    19. NAV BG COLOR ACTIVE ITEMS     */
 	/* -------------------------------- */
-		.navbar-custom .navbar-nav>.active>a { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
-		.navbar-custom .navbar-nav ul a.at { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
-		.navbar-custom .navbar-nav>.active>a:hover { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		.navbar-custom .navbar-nav>.active>a { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
+		.navbar-custom .navbar-nav ul a.at { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
+		.navbar-custom .navbar-nav>.active>a:hover { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
 
 	/* ------------------------------------------------------------- */
 	/*    20. NAV HOVER BG COLOR FOR NON-ACTIVE DROPDOWN ITEMS      */
 	/* ------------------------------------------------------------- */
-		.dropdown-menu>li>a:hover { background-color: {{if {accessibility_colors.first(). nav_dropdown_bg_color_non_active_items} }}{{accessibility_colors.first().nav_dropdown_bg_color_non_active_items}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		.dropdown-menu>li>a:hover { background-color: {{if {accessibility_colors.first(). nav_dropdown_bg_color_non_active_items} }}{{accessibility_colors.first().nav_dropdown_bg_color_non_active_items}};{{end-if}} }
 
 
 	/* HOMEPAGE */
