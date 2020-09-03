@@ -138,7 +138,9 @@
 
 
 	/* ------------------------------------------------- */
-	/*  18. ALL NAV ITEMS HOVER STATE BACKGROUND COLOR   */
+	/*  18. ALL NAV ITEMS HOVER   */
+
+	/*   ALL NAV ITEMS HOVER STATE BACKGROUND COLOR   */
 	/* ------------------------------------------------- */
 	/* background color of hover on dropdown items */
 		.dropdown-menu>li>a:hover { background-color: {{if {accessibility_colors.first().all_nav_items_hover} }}{{accessibility_colors.first().all_nav_items_hover}};{{end-if}} }
@@ -146,16 +148,20 @@
 
 	/* navbar active items */
 	/* -------------------------------- */
-	/*    19. NAV BG COLOR ACTIVE ITEMS     */
+	/*    19. NAV ACTIVE ITEMS BG COLOR     */
+
+	/*    NAV BG COLOR ACTIVE ITEMS     */
 	/* -------------------------------- */
 		.navbar-custom .navbar-nav>.active>a { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
 		.navbar-custom .navbar-nav ul a.at { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
 		.navbar-custom .navbar-nav>.active>a:hover { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
 
 	/* ------------------------------------------------------------- */
-	/*    20. NAV HOVER BG COLOR FOR NON-ACTIVE DROPDOWN ITEMS      */
+	/*    20. NAV DROPDOWN BG COLOR FOR NON-ACTIVE ITEMS HOVER STATE      */
+
+	/*     NAV HOVER BG COLOR FOR NON-ACTIVE DROPDOWN ITEMS      */
 	/* ------------------------------------------------------------- */
-		.dropdown-menu>li>a:hover { background-color: {{if {accessibility_colors.first(). nav_dropdown_bg_color_non_active_items} }}{{accessibility_colors.first().nav_dropdown_bg_color_non_active_items}};{{end-if}} }
+		.navbar-custom .nav li a:hover { background-color: {{if {accessibility_colors.first(). nav_dropdown_bg_color_non_active_items} }}{{accessibility_colors.first().nav_dropdown_bg_color_non_active_items}};{{end-if}} }
 
 
 	/* HOMEPAGE */
