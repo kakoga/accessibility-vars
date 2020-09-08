@@ -91,7 +91,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading">{{page.timeline_title}}</h2>
+				<h2 class="section-heading color-override">{{page.timeline_title}}</h2>
 				<h3 class="section-subheading text-muted">{{page.timeline_subtitle}}</h3>
 			</div>
 		</div>
