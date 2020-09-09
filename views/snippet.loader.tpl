@@ -1,5 +1,3 @@
-{{ include AccessColors }}
-
 <div id="page-top" class="index">
 	{{include header}}
 	{{ if {page.path_part} != 'zesty_home' }}
@@ -80,6 +78,7 @@
 </script>
 
 {{ end-if }}
-<script>
-	$('.header-spacing').css('margin-bottom', $('#mainNav').outerHeight() );
-</script>
+
+<!--<script>
+		('.header-spacing').css('margin-top', "-" + ($('#mainNav').outerHeight()) );
+</script>-->

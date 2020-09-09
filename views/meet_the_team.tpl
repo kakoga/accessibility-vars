@@ -1,14 +1,14 @@
 <div id="meet-the-team">
-	{{ include inner-page-hero }}
+	<div class="cr">
+		<div class="cc">
+			{{ include inner-page-hero }}
+		</div>
+	</div>
+	{{ include sectionlinks }}
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">
-				<div class="col-lg-3 col-md-4 mobile" >
-					<div class="mobile">
-						{{ include sectionlinks }}
-					</div>
-				</div>
-				<div class="col-lg-9 col-md-8" >
+				<div class="col-md-12" >
 					<h1>{{ page.page_title }}</h1>
 					{{ page.body_text }}
 					{{ each employee_category as ec sort by ec.sort_order }}
@@ -16,8 +16,19 @@
 					<hr/>
 					<div class="row">
 						{{ each employees as employee where employee.employee_category = '{ec.zuid}' sort by employee.sort_order }}
-						{{ $index = {index} }}
-						{{ if {$index} % (12/{page.number_of_cols}) == 1 && {$index} != 1 }}
+						{{ if {page.number_of_cols} == 12 && {index} % 1 = 0 && {index} != 1 }}
+					</div>
+					<div class="row">
+						{{ else if {page.number_of_cols} == 6 && {index} % 2 = 1 && {index} != 1 }}
+					</div>
+					<div class="row">
+						{{ else if {page.number_of_cols} == 4 && {index} % 3 = 1 && {index} != 1 }}
+					</div>
+					<div class="row">
+						{{ else if {page.number_of_cols} == 3 && {index} % 4 = 1 && {index} != 1 }}
+					</div>
+					<div class="row">
+						{{ else if {page.number_of_cols} == 2 && {index} % 6 = 1 && {index} != 1 }}
 					</div>
 					<div class="row">
 						{{ end-if }}
@@ -29,12 +40,6 @@
 						{{ end-each }}
 					</div>
 					{{ end-each }}
-				</div>
-				<div class="col-lg-3 col-md-4" >
-					<div class="desktop">
-						{{ include sectionlinks }}
-						{{ include inner-page-sidebar }}
-					</div>
 				</div>
 			</div>
 		</div>
