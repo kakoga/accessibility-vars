@@ -40,16 +40,19 @@
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
+                      <parent_nav_item><![CDATA[]]></parent_nav_item>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
+                      <parent_nav_item><![CDATA[]]></parent_nav_item>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[instagram]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
+                      <parent_nav_item><![CDATA[]]></parent_nav_item>
                   </item>
               </items>
           </dataset>
