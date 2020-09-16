@@ -33,26 +33,22 @@
                   <text name="name" name_friendly="Social Media Name" list="1" />
                   <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" list="1"/>
                   <text name="url" name_friendly="Social Media Link" limit="1" list="1" />
-                  <one_to_one name="parent_nav_item" name_friendly="Parent Nav Item" relationship="social_links" relationship_field="name" list="1" />
               </fields>
               <items>
                   <item link_title="" path_part="">
                       <name><![CDATA[one to one update]]></name>
                       <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
-                      <parent_nav_item><![CDATA[]]></parent_nav_item>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
-                      <parent_nav_item><![CDATA[]]></parent_nav_item>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[instagram]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
-                      <parent_nav_item><![CDATA[]]></parent_nav_item>
                   </item>
               </items>
           </dataset>
