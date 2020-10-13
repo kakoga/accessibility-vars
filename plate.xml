@@ -24,7 +24,7 @@
             <text name="phone" name_friendly="Main Phone"><![CDATA[]]></text>
             <text name="telephone_number_height" name_friendly="Telephone Number Height (pixels)"><![CDATA[20]]></text>
             <text name="request_button_font_size" name_friendly="Request Button Font Size (pixels)"><![CDATA[18]]></text>
-            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[]]></text>
+            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[ ]]></text>
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>
         <ingredients>
@@ -92,6 +92,75 @@
               </item>
             </items>
           </dataset>
+
+          <dataset name="accessibility_colors" name_friendly="Accessibility Colors">
+              <fields>
+                <color name="site_wide" name_friendly="1. Site Wide" />
+                <color name="subpage_headers_h1" name_friendly="2. Subpage Headers" />
+                <color name="h3_headers_squares_title" name_friendly="3. Homepage Square Titles" />
+                <color name="h3_headers_employee_cats" name_friendly="4. Employee Cats" />
+                <color name="links" name_friendly="5. Links" />
+                <color name="link_hover_color" name_friendly="6. Link Hover Color" />
+                <color name="all_icons" name_friendly="7. All Icons" />
+                <color name="all_buttons" name_friendly="8. All Buttons (except for Slider)" />
+                <color name="all_buttons_hover" name_friendly="9. All Buttons Hover (except for Slider)" />
+                <color name="social_icon_hover" name_friendly="10. Social Icon Hover" />
+                <color name="phone_number" name_friendly="11. Header Phone Number and Tel Icon" />
+                <color name="site_name" name_friendly="12. Site Name" />
+                <color name="site_name_hover" name_friendly="13. Site Name Hover" />
+                <color name="all_nav_items" name_friendly="14. All Nav Items" />
+                <color name="all_nav_items_hover" name_friendly="15. All Nav Items Hover" />
+                <color name="nav_active_item_bg_color" name_friendly="16. Nav Active Item Background Color" />
+                <color name="nav_dropdown_bg_color_non_active_items" name_friendly="17. Nav Dropdown Background Color for Non-active Items" />
+                <color name="slider_text" name_friendly="18. Slider Text" />
+                <color name="slider_button" name_friendly="19. Slider Button" />
+                <color name="slider_button_hover" name_friendly="20. Slider Button Hover" />
+                <color name="all_timeline_titles" name_friendly="21. Timeline Title, Bubble Titles and Bubble Subtitles" />
+                <color name="timeline_body_text_header_subtitle" name_friendly="22. Timeline Body Text and Main Subtitle" />
+                <color name="timeline_button" name_friendly="23. Timeline Button" />
+                <color name="timeline_button_hover" name_friendly="24. Timeline Button Hover" />
+                <color name="homepage_about_section" name_friendly="25. Homepage About Section" />
+                <color name="footer_text" name_friendly="26. Footer Text" />
+                <color name="sectionlinks" name_friendly="27. Sectionlinks" />
+                <color name="testimonial_headline_and_location" name_friendly="28. Testimonial Header and Location" />
+                <color name="testimonial_name_and_body_text" name_friendly="29. Testimonial Customer Name and Body Text" />
+              </fields>
+              <items>
+                  <item link_title="" path_part="">
+                    <site_wide><![CDATA[]]></site_wide>
+                    <subpage_headers_h1><![CDATA[]]></subpage_headers_h1>
+                    <h3_headers_squares_title><![CDATA[]]></h3_headers_squares_title>
+                    <h3_headers_employee_cats><![CDATA[]]></h3_headers_employee_cats>
+                    <links><![CDATA[]]></links>
+                    <link_hover_color><![CDATA[]]></link_hover_color>
+                    <all_icons><![CDATA[]]></all_icons>
+                    <all_buttons><![CDATA[]]></all_buttons>
+                    <all_buttons_hover><![CDATA[]]></all_buttons_hover>
+                    <social_icon_hover><![CDATA[]]></social_icon_hover>
+                    <phone_number><![CDATA[]]></phone_number>
+                    <site_name><![CDATA[]]></site_name>
+                    <site_name_hover><![CDATA[]]></site_name_hover>
+                    <all_nav_items><![CDATA[]]></all_nav_items>
+                    <all_nav_items_hover><![CDATA[]]></all_nav_items_hover>
+                    <nav_active_item_bg_color><![CDATA[]]></nav_active_item_bg_color>
+                    <nav_dropdown_bg_color_non_active_items><![CDATA[]]></nav_dropdown_bg_color_non_active_items>
+                    <slider_text><![CDATA[]]></slider_text>
+                    <slider_button><![CDATA[]]></slider_button>
+                    <slider_button_hover><![CDATA[]]></slider_button_hover>
+                    <all_timeline_titles><![CDATA[]]></all_timeline_titles>
+                    <timeline_body_text_header_subtitle><![CDATA[]]></timeline_body_text_header_subtitle>
+                    <timeline_button><![CDATA[]]></timeline_button>
+                    <timeline_button_hover><![CDATA[]]></timeline_button_hover>
+                    <homepage_about_section><![CDATA[]]></homepage_about_section>
+                    <footer_text><![CDATA[]]></footer_text>
+                    <sectionlinks><![CDATA[]]></sectionlinks>
+                    <testimonial_headline_and_location><![CDATA[]]></testimonial_headline_and_location>
+                    <testimonial_name_and_body_text><![CDATA[]]></testimonial_name_and_body_text>
+                  </item>
+              </items>
+          </dataset>
+
+
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
