@@ -97,14 +97,14 @@
               <fields>
                 <color name="site_wide" name_friendly="1. Site Wide" />
                 <color name="subpage_headers_h1" name_friendly="2. Subpage Headers" />
-                <color name="h3_headers_squares_title" name_friendly="3. Homepage Square Titles" />
+                <color name="h3_headers_squares_title" name_friendly="3. Homepage Service Square Titles and Captions" />
                 <color name="h3_headers_employee_cats" name_friendly="4. Employee Cats" />
                 <color name="links" name_friendly="5. Links" />
                 <color name="link_hover_color" name_friendly="6. Link Hover Color" />
                 <color name="all_icons" name_friendly="7. All Icons" />
                 <color name="social_icon_hover_background" name_friendly="8. Social Icon Hover Background Color" />
                 <color name="all_buttons" name_friendly="9. All Buttons (except for Slider)" />
-                <color name="all_buttons_hover" name_friendly="10. All Buttons Hover (except for Slider)" />
+                <color name="all_buttons_hover" name_friendly="10. All Buttons Hover (except for Slider and homepage squares)" />
                 <color name="site_name" name_friendly="11. Site Name" />
                 <color name="site_name_hover" name_friendly="12. Site Name Hover" />
                 <color name="all_nav_items" name_friendly="13. All Nav Items" />
