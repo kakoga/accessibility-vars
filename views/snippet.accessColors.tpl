@@ -140,14 +140,14 @@
 
 
 	/* ----------------------- */
-	/*    17. Slider text       */
+	/*    16. Slider text       */
 	/* ----------------------- */
 			/* Slider text */
 			.intro-text .intro-lead-in,.intro-heading { color: {{if {accessibility_colors.first().slider_text} }}{{accessibility_colors.first().slider_text}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 	/* ---------------------- */
-	/*   18. Slider button    */
+	/*   17. Slider button    */
 	/* ---------------------- */
 		/* Slider button */
 			.intro-text a { color: {{if {accessibility_colors.first().slider_button} }}{{accessibility_colors.first().slider_button}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
