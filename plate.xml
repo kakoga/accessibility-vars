@@ -102,7 +102,7 @@
                 <color name="links" name_friendly="5. Links" />
                 <color name="link_hover_color" name_friendly="6. Link Hover Color" />
                 <color name="all_icons" name_friendly="7. All Icons" />
-                <color name="social_icon_hover_background" name_friendly="8. Social Icon Hover" />
+                <color name="social_icon_hover_background" name_friendly="8. Social Icon Hover Background Color" />
                 <color name="all_buttons" name_friendly="9. All Buttons (except for Slider)" />
                 <color name="all_buttons_hover" name_friendly="10. All Buttons Hover (except for Slider)" />
                 <color name="site_name" name_friendly="11. Site Name" />

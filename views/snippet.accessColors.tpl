@@ -19,8 +19,10 @@
 	/* ---------------------------------------------------------------- */
 		#team h3 { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}}  }
 		.square-wrap .caption p { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		/* service page squares */
 		#services .square-wrap h4 { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 		#services .square-wrap h4:hover { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+#services .square-wrap:hover h3, #services .square-wrap:hover h4 { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 	/* ---------------------------------- */
@@ -62,7 +64,7 @@
 	/*   8. Social Icon Hover Background color    */
 	/* -------------------------------- */
 		/* HEADER (cat: strip above the nav with the social icons ) */
-		ul.social-buttons li a:hover { background-color: {{if {accessibility_colors.first().social_icon_hover_background} }}{{accessibility_colors.first().social_icon_hover_background}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+		ul.social-buttons li a:hover { background-color: {{if {accessibility_colors.first().social_icon_hover_background} }}{{accessibility_colors.first().social_icon_hover_background}};{{end-if}} }
 
 
 
@@ -133,10 +135,10 @@
 			/* ------------------------------------ */
 			/*    15. NAV ACTIVE ITEMS BG COLOR     */
 			/* ------------------------------------ */
-					.navbar-custom .navbar-nav>.active>a, .navbar-custom .navbar-nav ul a.at { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+					.navbar-custom .navbar-nav>.active>a, .navbar-custom .navbar-nav ul a.at { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
 					/* bg color on hover*/
-					.navbar-custom .navbar-nav>.active>a, .navbar-custom .navbar-nav ul a.at:hover { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
-					.navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+					.navbar-custom .navbar-nav>.active>a, .navbar-custom .navbar-nav ul a.at:hover { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
+					.navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus { background-color: {{if {accessibility_colors.first().nav_active_item_bg_color} }}{{accessibility_colors.first().nav_active_item_bg_color}};{{end-if}} }
 
 
 	/* ----------------------- */
