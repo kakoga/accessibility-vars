@@ -9,7 +9,7 @@
 	</div>
 	{{ end-each }}
 	<hr/>
-	<a class="btn btn-primary" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" target="_blank">Request Appointment</a>
+	<a class="btn btn-primary" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" onClick= "ga('set', 'dimension3', 'THEME_CAT'); ga('set', 'page', '/ZESTY/CUSTOMER_WEBSITE_BUTTONCLICK/SIDEBAR'); ga('send', 'pageview'); ga('send', 'event', 'ZESTY', 'CUSTOMER_WEBSITE_BUTTONCLICK', ’SIDEBAR’);" >Request Appointment</a>
 	{{ if {page.body_text.substr(4500,4501)} != '' }}
 	{{ each promo as pro sort by pro.sort_order limit 1 }}
 	<div class="promo" >

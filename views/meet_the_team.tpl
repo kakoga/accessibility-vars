@@ -1,34 +1,27 @@
 <div id="meet-the-team">
-	<div class="cr">
-		<div class="cc">
-			{{ include inner-page-hero }}
-		</div>
-	</div>
-	{{ include sectionlinks }}
 	<div class="container">
 		<div class="body-content" >
+			<h1>{{ page.page_title }}</h1>
 			<div class="row">
-				<div class="col-md-12" >
-					<h1>{{ page.page_title }}</h1>
+				<div class="col-md-4 mobile" >
+					<div class="mobile">
+						{{ include sectionlinks }}
+					</div>
+				</div>
+				<div class="col-md-8" >
+					{{ if {page.main_image} }}
+					<div class="title-border">
+						<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" alt="{{ this.main_image_alt_text }}"/>
+					</div>
+					{{ end-if }}
 					{{ page.body_text }}
 					{{ each employee_category as ec sort by ec.sort_order }}
 					<h3>{{ ec.employee_category }}</h3>
 					<hr/>
 					<div class="row">
 						{{ each employees as employee where employee.employee_category = '{ec.zuid}' sort by employee.sort_order }}
-						{{ if {page.number_of_cols} == 12 && {index} % 1 = 0 && {index} != 1 }}
-					</div>
-					<div class="row">
-						{{ else if {page.number_of_cols} == 6 && {index} % 2 = 1 && {index} != 1 }}
-					</div>
-					<div class="row">
-						{{ else if {page.number_of_cols} == 4 && {index} % 3 = 1 && {index} != 1 }}
-					</div>
-					<div class="row">
-						{{ else if {page.number_of_cols} == 3 && {index} % 4 = 1 && {index} != 1 }}
-					</div>
-					<div class="row">
-						{{ else if {page.number_of_cols} == 2 && {index} % 6 = 1 && {index} != 1 }}
+						{{ $index = {index} }}
+						{{ if {$index} % (12/{page.number_of_cols}) == 1 && {$index} != 1 }}
 					</div>
 					<div class="row">
 						{{ end-if }}
@@ -40,6 +33,12 @@
 						{{ end-each }}
 					</div>
 					{{ end-each }}
+				</div>
+				<div class="col-md-4" >
+					<div class="desktop">
+						{{ include sectionlinks }}
+						{{ include inner-page-sidebar }}
+					</div>
 				</div>
 			</div>
 		</div>

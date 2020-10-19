@@ -2,7 +2,7 @@
     <plate_variables>
         <created_date>2016-11-30</created_date>
         <created_date>2016-11-30</created_date>
-        <plate>z-vet-template-3.0</plate>
+        <plate>Vetranarian Template A</plate>
         <created_by>Variable Action</created_by>
         <kitchen>Blank</kitchen>
         <variables>
@@ -12,7 +12,7 @@
               <sort>1</sort>
               <edit_in_content>1</edit_in_content>
               <locked>0</locked>
-              <value>1300px</value>
+              <value>1100px</value>
           </text>
             <color name="body-bg" name_friendly="Body Background Color">
                 <category>1</category>
@@ -20,7 +20,7 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#ffffff</value>
+                <value>#fffef2</value>
             </color>
             <text name="border-radius-base" name_friendly="Default Border Radius">
                 <category>1</category>
@@ -36,7 +36,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#f4eeee</value>
+                <value>#ffffff</value>
             </color>
             <color name="navbar-default-bg" name_friendly="Navigation Background Color">
                 <category>4</category>
@@ -44,7 +44,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#a98e1a</value>
+                <value>#17845c</value>
             </color>
             <text name="nav-font-size" name_friendly="Navigation Font Size">
                 <category>4</category>
@@ -60,7 +60,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#ad2d65</value>
+                <value>#135d68</value>
             </color>
             <color name="link-hover-color" name_friendly="Link Hover Color">
                 <category>3</category>
@@ -68,7 +68,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#8f164b</value>
+                <value>#239191</value>
             </color>
             <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
                 <category>3</category>
@@ -97,7 +97,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#030202</value>
+                <value>#2b2b2b</value>
             </color>
             <text name="font-size-base" name_friendly="Default Font Size">
                 <category>2</category>
@@ -156,7 +156,7 @@
                 <sort>6</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>18px</value>
+                <value>16px</value>
             </text>
             <color name="paragraph-font-color" name_friendly="Paragraph Font Color">
                 <category>2</category>
@@ -228,7 +228,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#f4eeee</value>
+                <value>#ffffff</value>
             </color>
             <text name="btn-border-radius-base" name_friendly="Button Border Radius">
                 <category>6</category>
@@ -244,7 +244,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#ad2d65</value>
+                <value>#3e8181</value>
             </color>
             <color name="btn-hover-font-color" name_friendly="Button Hover Font Color">
                 <category>6</category>
@@ -252,7 +252,7 @@
                 <sort>25</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#f4eeee</value>
+                <value>#ffffff</value>
             </color>
             <color name="btn-hover-bg-color" name_friendly="Button Border Color">
                 <category>6</category>
@@ -260,7 +260,7 @@
                 <sort>20</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#8f164b</value>
+                <value>#005757</value>
             </color>
             <color name="headings-color" name_friendly="H1 Font Color">
                 <category>1</category>
@@ -276,7 +276,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#ad2d65</value>
+                <value>#3e8181</value>
                 <options>
                     <option description="No transition" value="0ms" />
                     <option description="50ms" value="50ms" />
@@ -292,15 +292,15 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#e74c3c</value>
+                <value>#f00a1d</value>
             </color>
-            <color name="theme-gray-color" name_friendly="Theme Gray Color">
+            <color name="theme-gray-color" name_friendly="Theme Green Color">
                 <category>1</category>
                 <description>Base color for all the basic type on the website.</description>
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#0d2e32</value>
+                <value>#17845c</value>
             </color>
 
             <image name="body-bg-image" name_friendly="Body Background Image">
@@ -375,7 +375,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#22757d</value>
+                <value>#df710c</value>
             </color>
         </variables>
     </plate_variables>

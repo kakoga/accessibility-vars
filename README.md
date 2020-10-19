@@ -1,2 +1,2 @@
-# PetDesk Chameleon Blueprint
-![Plate cover](https://raw.githubusercontent.com/PetDesk/chameleon-template-3.0/master/shield.png)
+# PetDesk Cat Blueprint
+![Plate cover](https://raw.githubusercontent.com/PetDesk/cat-template/master/shield.png)
