@@ -967,6 +967,7 @@
                   <video_description><![CDATA[]]></video_description>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
+              </items>
           </dataset>
           <dataset name="about_us_photos" name_friendly="About Us Photos" parent_item="our-photos">
               <fields>
