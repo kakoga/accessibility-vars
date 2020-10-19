@@ -986,6 +986,7 @@
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
+              </items>
           </dataset>
           <!-- About Us: office tour template set -->
           <templateset name="office_tour" name_friendly="Office Tour" view="office_tour" parent_item="about-us">
