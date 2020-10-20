@@ -956,12 +956,7 @@
               </fields>
               <items>
                 <item>
-                  <photo_title><![CDATA[]]></photo_title>
-                  <photo_category><![CDATA[]]></photo_category>
-                  <about_us_photo><![CDATA[]]></about_us_photo>
-                  <about_us_photo_alt_text><![CDATA[]]></about_us_photo_alt_text>
-                  <photo_description><![CDATA[]]></photo_description>
-                  <sort_order><![CDATA[1]]></sort_order>
+                  
                 </item>
               </items>
           </dataset>
