@@ -955,9 +955,7 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                <item>
-                  
-                </item>
+                
               </items>
           </dataset>
           <!-- About Us: office tour template set -->
