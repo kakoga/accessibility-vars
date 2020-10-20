@@ -955,7 +955,7 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                
+
               </items>
           </dataset>
           <!-- About Us: office tour template set -->
@@ -970,7 +970,7 @@
               <items>
                   <item link_title="Office Tour" path_part="office-tour" parent="about-us">
                       <page_title><![CDATA[Office Tour]]></page_title>
-                      <main_image><![CDATA[]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-main-image.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <youtube_id><![CDATA[]]></youtube_id>
                       <body_text>
