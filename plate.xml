@@ -650,7 +650,17 @@
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-payment-options.r1c-hd8dl.jpg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <body_text>
-                    <![CDATA[]]>
+                    <![CDATA[<p>We offer our clients a variety of payment options, including CareCredit and some pet health insurance plans. Please see a full list of all available options below.</p>
+                      <ul>
+                      <li>VISA</li>
+                      <li>MasterCard</li>
+                      <li>American Express</li>
+                      <li>Discover</li>
+                      <li>Cash or Check</li>
+                      </ul>
+                      <h4>&nbsp;</h4>
+                      <p><img title="payment-options-carecredit-logo.jpg" src="https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/payment-options-carecredit-logo.jpg" alt="" width="196" height="32" /></p>
+                      <p>We also accept CareCredit. Learn more about&nbsp;<a href="https://www.carecredit.com/">CareCredit</a>.</p>]]>
                   </body_text>
               </item>
             </items>
@@ -664,12 +674,7 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                <item>
-                  <form_title><![CDATA[New Patient Form]]></form_title>
-                  <form_description><![CDATA[]]></form_description>
-                  <form_pdf><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-sample.pdf]]></form_pdf>
-                  <sort_order><![CDATA[1]]></sort_order>
-                </item>
+
               </items>
           </dataset>
 
@@ -703,7 +708,7 @@
                   <sort name="sort_order" name_friendly="Sort Order" required="1" list="1" />
               </fields>
               <items>
-                
+
               </items>
           </pageset>
           <!-- SERVICES END -->
@@ -819,14 +824,7 @@
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
               <items>
-                  <item link_title="Our Photos" path_part="our-photos" parent="about-us">
-                      <page_title><![CDATA[Our Photos]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos.SJ1z3u8Ox.jpeg]]></main_image>
-                      <main_image_alt_text><![CDATA[]]></main_image_alt_text>
-                      <body_text>
-                        <![CDATA[]]>
-                      </body_text>
-                  </item>
+
               </items>
           </templateset>
           <!-- About Us Datasets -->
@@ -992,14 +990,7 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                <item>
-                  <photo_title><![CDATA[]]></photo_title>
-                  <photo_category><![CDATA[]]></photo_category>
-                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-front-office.jpg]]></office_photo>
-                  <office_photo_alt_text><![CDATA[]]></office_photo_alt_text>
-                  <photo_description><![CDATA[]]></photo_description>
-                  <sort_order><![CDATA[1]]></sort_order>
-                </item>
+
               </items>
           </dataset>
           <!-- ABOUT US END -->
